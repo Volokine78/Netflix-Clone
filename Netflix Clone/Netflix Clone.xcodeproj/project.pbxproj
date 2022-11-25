@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B98599922931084E00F67E4D /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98599912931084E00F67E4D /* CollectionViewTableViewCell.swift */; };
 		B9A399DD2909C0640057D583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A399DC2909C0640057D583 /* AppDelegate.swift */; };
 		B9A399DF2909C0640057D583 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A399DE2909C0640057D583 /* SceneDelegate.swift */; };
 		B9A399E12909C0640057D583 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A399E02909C0640057D583 /* MainTabBarViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B98599912931084E00F67E4D /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		B9A399D92909C0640057D583 /* Netflix Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9A399DC2909C0640057D583 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9A399DE2909C0640057D583 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B985998C2931024400F67E4D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B985998D293107B200F67E4D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B98599912931084E00F67E4D /* CollectionViewTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B985998E293107BE00F67E4D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B985998F293107DD00F67E4D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B9859990293107ED00F67E4D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		B9A399D02909C0640057D583 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +100,11 @@
 		B9A399DB2909C0640057D583 /* Netflix Clone */ = {
 			isa = PBXGroup;
 			children = (
+				B9859990293107ED00F67E4D /* Managers */,
+				B985998F293107DD00F67E4D /* Resources */,
+				B985998E293107BE00F67E4D /* Models */,
+				B985998D293107B200F67E4D /* Views */,
+				B985998C2931024400F67E4D /* ViewModels */,
 				B9BEA383292E3F920059DEB0 /* Controllers */,
 				B9A399DC2909C0640057D583 /* AppDelegate.swift */,
 				B9A399DE2909C0640057D583 /* SceneDelegate.swift */,
@@ -156,6 +199,7 @@
 			files = (
 				B9BEA389292E40B20059DEB0 /* SearchViewController.swift in Sources */,
 				B9A399E12909C0640057D583 /* MainTabBarViewController.swift in Sources */,
+				B98599922931084E00F67E4D /* CollectionViewTableViewCell.swift in Sources */,
 				B9BEA38B292E40E30059DEB0 /* DownloadsViewController.swift in Sources */,
 				B9A399DD2909C0640057D583 /* AppDelegate.swift in Sources */,
 				B9A399DF2909C0640057D583 /* SceneDelegate.swift in Sources */,
