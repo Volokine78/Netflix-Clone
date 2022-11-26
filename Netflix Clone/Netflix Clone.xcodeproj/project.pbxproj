@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B91C3F552932434400533EB1 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91C3F542932434400533EB1 /* HeroHeaderUIView.swift */; };
 		B98599922931084E00F67E4D /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98599912931084E00F67E4D /* CollectionViewTableViewCell.swift */; };
 		B9A399DD2909C0640057D583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A399DC2909C0640057D583 /* AppDelegate.swift */; };
 		B9A399DF2909C0640057D583 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A399DE2909C0640057D583 /* SceneDelegate.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B91C3F542932434400533EB1 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		B98599912931084E00F67E4D /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		B9A399D92909C0640057D583 /* Netflix Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9A399DC2909C0640057D583 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				B98599912931084E00F67E4D /* CollectionViewTableViewCell.swift */,
+				B91C3F542932434400533EB1 /* HeroHeaderUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				B9BEA389292E40B20059DEB0 /* SearchViewController.swift in Sources */,
 				B9A399E12909C0640057D583 /* MainTabBarViewController.swift in Sources */,
 				B98599922931084E00F67E4D /* CollectionViewTableViewCell.swift in Sources */,
+				B91C3F552932434400533EB1 /* HeroHeaderUIView.swift in Sources */,
 				B9BEA38B292E40E30059DEB0 /* DownloadsViewController.swift in Sources */,
 				B9A399DD2909C0640057D583 /* AppDelegate.swift in Sources */,
 				B9A399DF2909C0640057D583 /* SceneDelegate.swift in Sources */,
