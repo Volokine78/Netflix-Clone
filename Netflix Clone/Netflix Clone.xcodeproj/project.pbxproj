@@ -20,6 +20,7 @@
 		B9BEA389292E40B20059DEB0 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEA388292E40B20059DEB0 /* SearchViewController.swift */; };
 		B9BEA38B292E40E30059DEB0 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEA38A292E40E30059DEB0 /* DownloadsViewController.swift */; };
 		B9F170D6293615180061BB16 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F170D5293615180061BB16 /* Movie.swift */; };
+		B9F170D829361B880061BB16 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F170D729361B880061BB16 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		B9BEA388292E40B20059DEB0 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		B9BEA38A292E40E30059DEB0 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		B9F170D5293615180061BB16 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		B9F170D729361B880061BB16 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		B985998F293107DD00F67E4D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B9F170D729361B880061BB16 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				B91C3F552932434400533EB1 /* HeroHeaderUIView.swift in Sources */,
 				B9BEA38B292E40E30059DEB0 /* DownloadsViewController.swift in Sources */,
 				B9A399DD2909C0640057D583 /* AppDelegate.swift in Sources */,
+				B9F170D829361B880061BB16 /* Extensions.swift in Sources */,
 				B9A399DF2909C0640057D583 /* SceneDelegate.swift in Sources */,
 				B9BEA387292E40830059DEB0 /* UpcomingViewController.swift in Sources */,
 				B9F170D6293615180061BB16 /* Movie.swift in Sources */,
