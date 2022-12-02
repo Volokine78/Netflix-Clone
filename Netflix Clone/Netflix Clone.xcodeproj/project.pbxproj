@@ -71,8 +71,8 @@
 				B9BEA384292E3FEA0059DEB0 /* HomeViewController.swift */,
 				B9BEA386292E40830059DEB0 /* UpcomingViewController.swift */,
 				B9BEA388292E40B20059DEB0 /* SearchViewController.swift */,
-				B9A399E02909C0640057D583 /* MainTabBarViewController.swift */,
 				B9BEA38A292E40E30059DEB0 /* DownloadsViewController.swift */,
+				B9A399E02909C0640057D583 /* MainTabBarViewController.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
