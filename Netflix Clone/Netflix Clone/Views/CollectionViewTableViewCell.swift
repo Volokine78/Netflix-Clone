@@ -55,7 +55,14 @@ class CollectionViewTableViewCell: UITableViewCell {
     }
     
     private func downloadTitleAt(indexPath: IndexPath) {
-        print("Downloading \(titles[indexPath.row].original_title ?? "")")
+        DataPersistenceManager.shared.downloadTitleWith(model: titles[indexPath.row]) { result in
+            switch result {
+                case .success():
+                    print("downloaded database")
+                case .failure(let error):
+                    print(error.localizedDescription)
+            }
+        }
     }
 }
 
@@ -115,7 +122,7 @@ extension CollectionViewTableViewCell: UICollectionViewDelegate, UICollectionVie
                     image: nil,
                     identifier: nil,
                     discoverabilityTitle: nil,
-                    state: .off) { _ in
+                    state: .off) { [weak self] _ in
                         self?.downloadTitleAt(indexPath: indexPath)
                 }
                 return UIMenu(
